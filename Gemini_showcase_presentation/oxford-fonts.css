@@ -1,0 +1,70 @@
+/* Oxford Fonts Theme for xaringan */
+
+/* Import Google Fonts - Professional academic fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Source+Sans+Pro:wght@300;400;600;700&family=Source+Code+Pro:wght@400;500;600&display=swap');
+
+/* Body font */
+body {
+  font-family: 'Lato', 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+/* Headers */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+/* Code font */
+.remark-code, .remark-inline-code {
+  font-family: 'Source Code Pro', 'Courier New', Courier, monospace;
+  font-weight: 400;
+}
+
+/* Strong text */
+strong, b {
+  font-weight: 700;
+}
+
+/* Emphasis */
+em, i {
+  font-style: italic;
+}
+
+/* Slide content font size adjustments for readability */
+.remark-slide-content {
+  font-size: 24px;
+  line-height: 1.6;
+}
+
+/* Title slide fonts */
+.title-slide h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.title-slide h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+.title-slide h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+}
+
+/* Ensure readability on different screen sizes */
+@media screen and (max-width: 768px) {
+  .remark-slide-content {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .remark-slide-content {
+    font-size: 28px;
+  }
+}

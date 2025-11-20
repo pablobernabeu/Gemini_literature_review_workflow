@@ -1,0 +1,73 @@
+[
+    {
+        "key": "ctrl+enter",
+        "command": "r.runSelection",
+        "when": "editorLangId == r && editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+enter",
+        "command": "r.runCurrentLine",
+        "when": "editorLangId == r && editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+s",
+        "command": "r.sourceCurrentFile",
+        "when": "editorLangId == r && editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+r",
+        "command": "r.createRTerminal"
+    },
+    {
+        "key": "alt+enter",
+        "command": "r.runSelectionOrWord",
+        "when": "editorLangId == r && editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+enter", 
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                "r.runSelection",
+                "cursorDown"
+            ]
+        },
+        "when": "editorLangId == r && editorTextFocus"
+    },
+    {
+        "key": "ctrl+z",
+        "command": "-workbench.action.terminal.sendSequence"
+    },
+    {
+        "key": "ctrl+z", 
+        "command": "-workbench.action.terminal.killEditor"
+    },
+    {
+        "key": "ctrl+z",
+        "command": "-workbench.action.terminal.kill"
+    },
+    {
+        "key": "ctrl+z",
+        "command": "-terminal.sendSequence"
+    },
+    {
+        "key": "ctrl+z",
+        "command": "-workbench.action.undo"
+    },
+    {
+        "key": "ctrl+z",
+        "command": "-workbench.action.terminal.sendText"
+    },
+    {
+        "key": "ctrl+z",
+        "command": "-workbench.action.terminal.paste"
+    },
+    {
+        "key": "ctrl+z",
+        "command": "-workbench.action.terminal.clear"
+    },
+    {
+        "key": "ctrl+z",
+        "command": ""
+    }
+]

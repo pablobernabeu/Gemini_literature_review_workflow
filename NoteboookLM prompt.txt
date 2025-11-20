@@ -1,0 +1,37 @@
+I'm preparing a study to investigate semantic processing using a core semantic priming task as the dependent variable. The independent variables will include stimulus onset asynchrony and individual differences in language (based on lexical decision), vision (based on a visual task) and other sensorimotor modalities (based on the Plymouth Sensory Imagery Questionnaire and a mental comparison task). I need to review relevant studies that present data from an experiment featuring at least one lexical or semantic task, and at least one individual difference in language and/or imagery/perceptual/motor experience.
+
+Help me conduct a systematic review by extracting the following information from every paper attached. Use all the fields listed below in the order provided, placing each field in a column and ensuring that the information is appropriate for the field. Flag any irrelevant studies in the `exclusion_reason` field. Do not use any bullet points or numbered points within fields. Produce the output in a spreadsheet format, and do not use dollar signs for mathematical notation. 
+
+Column: filename
+Column: title (title of the paper)
+Column: exclusion_reason (exclude papers that do not address semantic/conceptual processing or do not present novel experimental data)
+Column: experiment_ID (if there is more than one experiment in a paper, label each experiment with a unique ID, such as 'Exp 1' and 'Exp 2', and extract the appropriate information for each experiment)
+Column: relevance_rating (scale ranging between 0 and 10 that assesses the relevance of the paper to the study I am preparing, described above)
+Column: number_of_participants
+Column: number_of_trials
+Column: language_of_testing (language of the tasks)
+Column: first_language (participants' first language)
+Column: second_language (participants' second language)
+Column: lexical_or_semantic_task (examples could include lexical decision, semantic priming and semantic decision)
+Column: individual_language_experience_measure (examples could include vocabulary size, lexical decision and semantic decision)
+Column: effect_of_individual_language_experience_on_semantic_processing (examples could include a positive effect on reading comprehension)
+Column: effect_size_of_individual_language_experience_on_semantic_processing
+Column: individual_imagery_experience_measure (examples could include Plymouth Sensory Imagery Questionnaire, Vividness of Visual Imagery Questionnaire and mental comparison task)
+Column: effect_of_individual_imagery_experience_on_semantic_processing (examples could include a positive effect on reading comprehension)
+Column: effect_size_of_individual_imagery_experience_on_semantic_processing 
+Column: other_individual_differences (examples could include working memory and attentional control)
+Column: statistical_method (examples could include ANOVA, regression and mixed-effects models)
+Column: power_analysis_method (examples could include G*Power and simulation)
+Column: target_power (examples could include 0.8 and 0.9) 
+Column: required_participants_for_language (based on power analysis, if conducted)
+Column: required_participants_for_imagery (based on power analysis, if conducted)
+Column: required_trials_for_language (based on power analysis, if conducted)
+Column: required_trials_for_imagery (based on power analysis, if conducted)
+
+include all 25 columns: filename, title, exclusion_reason, experiment_ID, relevance_rating, number_of_participants, number_of_trials, language_of_testing, first_language, second_language, lexical_or_semantic_task, individual_language_experience_measure, effect_of_individual_language_experience_on_semantic_processing, effect_size_of_individual_language_experience_on_semantic_processing, individual_imagery_experience_measure, effect_of_individual_imagery_experience_on_semantic_processing, effect_size_of_individual_imagery_experience_on_semantic_processing, other_individual_differences, statistical_method, power_analysis_method, target_power, required_participants_for_language, required_participants_for_imagery, required_trials_for_language, required_trials_for_imagery
+
+do not overidentify any information. leave any missing information blank. 
+
+progress in order across papers, tidily registering the information about each paper. 
+
+ask me any questions before starting. 

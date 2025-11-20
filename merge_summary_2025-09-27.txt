@@ -1,0 +1,23 @@
+=== REFERENCE MERGE SUMMARY ===
+Date: 2025-09-27
+Time: 2025-09-27 16:49:55.651342
+
+INPUT FILES:
+- Scopus references: references_for_review_input_2025-08-29.csv
+- NotebookLM data: NotebookLM output.csv
+
+OUTPUT FILE:
+- Merged dataset: merged_references_2025-09-27.csv
+
+SUMMARY STATISTICS:
+- Total records: 185
+- Records with NotebookLM data: 162
+- Records from Scopus only: 23
+- Excluded records: 77
+- Missing PDFs: 9
+- With relevance ratings: 162
+- With participant data: 146
+- With effect sizes: 0
+
+MERGE SUCCESS RATE:
+- Percentage with NotebookLM data: 87.6 %
