@@ -1,4 +1,7 @@
 
+# VS Code settings
+.vscode/
+
 # PDF input folders
 input/all papers/
 input/papers 1-30/
