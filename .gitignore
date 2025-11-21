@@ -1,0 +1,11 @@
+
+xaringan_presentation
+xaringan_presentation/*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+~$*
+*.tmp

@@ -28,12 +28,12 @@ setwd("c:/Users/pablob/OneDrive - Nexus365/Documents/GitHub/language-vision-sema
 cat("Loading input files...\n")
 
 # Load rscopus_plus reference data (original search results)
-scopus_refs <- read_csv("references_for_review_input_2025-08-29.csv",
+scopus_refs <- read_csv("intermediate_output/references_for_review_input_2025-08-29.csv",
     show_col_types = FALSE
 )
 
 # Load NotebookLM systematic review data (manually organized)
-notebookLM_data <- read_csv("NotebookLM output.csv",
+notebookLM_data <- read_csv("intermediate_output/NotebookLM output.csv",
     show_col_types = FALSE
 )
 
@@ -308,7 +308,7 @@ if (nrow(duplicate_matches) > 0) {
 # ==============================================================================
 
 # Generate output filename with timestamp
-output_filename <- paste0("merged_references_", format(Sys.Date(), "%Y-%m-%d"), ".csv")
+output_filename <- paste0("final_output/merged_references_", format(Sys.Date(), "%Y-%m-%d"), ".csv")
 
 cat("\nSaving merged dataset to:", output_filename, "\n")
 
@@ -316,15 +316,15 @@ cat("\nSaving merged dataset to:", output_filename, "\n")
 write_csv(final_dataset, output_filename)
 
 # Save summary statistics
-summary_filename <- paste0("merge_summary_", format(Sys.Date(), "%Y-%m-%d"), ".txt")
+summary_filename <- paste0("final_output/merge_summary_", format(Sys.Date(), "%Y-%m-%d"), ".txt")
 writeLines(c(
     "=== REFERENCE MERGE SUMMARY ===",
     paste("Date:", Sys.Date()),
     paste("Time:", Sys.time()),
     "",
     "INPUT FILES:",
-    paste("- Scopus references:", "references_for_review_input_2025-08-29.csv"),
-    paste("- NotebookLM data:", "NotebookLM output.csv"),
+    paste("- Scopus references:", "intermediate_output/references_for_review_input_2025-08-29.csv"),
+    paste("- NotebookLM data:", "intermediate_output/NotebookLM output.csv"),
     "",
     "OUTPUT FILE:",
     paste("- Merged dataset:", output_filename),

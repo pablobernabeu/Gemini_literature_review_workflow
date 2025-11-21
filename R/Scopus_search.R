@@ -167,4 +167,4 @@ results %>%
     required_trials_for_imagery
   ) %>%
   # Save to CSV file to allow manually inputting the results of the review.
-  write.csv(paste0("references_before_NotebookLM_input_", Sys.Date(), ".csv"), row.names = FALSE)
+  write.csv(paste0("intermediate_output/references_before_NotebookLM_input_", Sys.Date(), ".csv"), row.names = FALSE)
