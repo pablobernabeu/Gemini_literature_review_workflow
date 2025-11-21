@@ -2,6 +2,14 @@
 xaringan_presentation
 xaringan_presentation/*
 
+# PDF input folders
+input/all papers/
+input/papers 1-30/
+input/papers 31-60/
+input/papers 61-90/
+input/papers 91-120/
+input/papers 121-150/
+
 # System files
 .DS_Store
 Thumbs.db
