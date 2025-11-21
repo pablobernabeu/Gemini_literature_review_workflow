@@ -58,4 +58,3 @@ This workflow addresses the challenge of extracting multiple data points (method
 Bernabeu, P. (2024). *rscopus_plus*. OSF. <https://doi.org/10.17605/OSF.IO/BUZQ6>
 
 Malik, M., & Sime, J. A. (2025). Teamwork, co-Regulation, and socially shared regulation skills within engineering education studies: A GenAI-assisted scoping review. ASEE Annual Conference & Exposition, Montreal, Quebec, Canada. <https://doi.org/10.18260/1-2--57199>
-
